@@ -9,3 +9,7 @@ response = requests.get(url)         #requesting permission to take contents fro
 
 soup = BeautifulSoup(response.content, "html.parser")     #instantiate web scraper / parser that iterates over HTML
 
+image = soup.find_all("img")          #extract tags inside the string and stores them inside a list
+ 
+
+#print(soup.prettify())         #prints out HTML file from URL
