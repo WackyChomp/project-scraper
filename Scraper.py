@@ -4,13 +4,13 @@ import requests
 import urllib.request         #download from the sources attribute link
 
 #Google images of monkeys
-url = "https://www.google.com/search?q=monkey&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjp182qrrvvAhXMmeAKHXYwBU4Q_AUoAXoECAIQAw"
+url = "https://www.gettyimages.com/photos/monkey?phrase=monkey&sort=mostpopular"
 
 response = requests.get(url)         #requesting permission to take contents from url
 
 soup = BeautifulSoup(response.content, "html.parser")     #instantiate web scraper / parser that iterates over HTML
 
-images = soup.find_all("img" , attrs = {"class" : "rg_i Q4LulWd"})    #extract tags inside the string and stores them inside a list as a dictionary
+images = soup.find_all("img" , attrs = {"class" : "gallery-asset__thumb gallery-mosaic-asset__thumb"})    #extract tags inside the string and stores them inside a list as a dictionary
 
 number = 0
 
