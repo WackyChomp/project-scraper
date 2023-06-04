@@ -8,6 +8,16 @@ urllib
 requests
 '''
 
+<!-- 
+Move later / Quick commands to use
+
+cd scrapy-open-source
+cd 1-first_scrapy
+. venv/scripts/activate
+
+pip freeze > requirements.txt
+-->
+
 
 <!-- PROJECT LOGO -->
 <br />
