@@ -1,7 +1,7 @@
-# Python-Tools (WIP)
+# Python-Tools (WIP Name)
 
 '''
-Scrape contents from sites with BeautifulSoup
+Scrape contents from sites with Scrapy
 Python 3
 BeautifulSoup
 urllib
@@ -11,6 +11,9 @@ requests
 <!-- 
 Move later / Quick commands to use
 
+https://books.toscrape.com/
+
+cd scrapy-open-source/1-first_scrapy/bookscraper/bookscraper/spiders
 cd scrapy-open-source
 cd 1-first_scrapy
 . venv/scripts/activate
@@ -89,14 +92,9 @@ Purpose / Vision:
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+* [![Python][Python]][Python-url]
+* [![HTML][HTML]][HTML-url]
+* [![CSS][CSS]][CSS-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -118,7 +116,6 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
@@ -152,6 +149,10 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
+- [ ] Generate csv file with more complex data from website
+- [ ] Creating pipeline with clean data
+- [ ] Saving data to files and database
+- [ ] Running Spiders in cloud
 - [x] :O
 - [x] :)
 - [ ] :(
@@ -213,30 +214,19 @@ List of wonderful resources:
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 
-[Bootstrap]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]:https://getbootstrap.com
-
 [Google-Cloud]:https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white
 [Google-cloud-url]: https://console.cloud.google.com
 
 
-
-PYTHON
-https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white
-https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white
-https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white
+[Python]: https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white
+[Python-url]: https://www.python.org/
 
 
-DATABASE
-https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white
-https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white
+[HTML]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
+[HTML-url]: https://en.wikipedia.org/wiki/HTML
 
-
-CLOUD
-https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white
-https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white
-https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white
-
+[CSS]: https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
+[CSS-url]: https://en.wikipedia.org/wiki/CSS
 
 
 <!-- 
