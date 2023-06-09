@@ -26,7 +26,7 @@ pip freeze > requirements.txt
 <br />
 <div align="center">
   <a href="https://github.com/WackyChomp/project-scraper">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Ouroboros.svg/1024px-Ouroboros.svg.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center" id='readme-top'>Project Scrape</h3>
@@ -67,7 +67,6 @@ pip freeze > requirements.txt
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
@@ -181,14 +180,6 @@ If you have a suggestion for improvements, fork the repo, and create a pull requ
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
