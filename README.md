@@ -2,10 +2,8 @@
 
 '''
 Scrape contents from sites with Scrapy
-Python 3
-BeautifulSoup
-urllib
-requests
+
+Python 3 | BeautifulSoup | urllib | requests
 '''
 
 <!-- 
@@ -13,10 +11,12 @@ Move later / Quick commands to use
 
 https://books.toscrape.com/
 
-cd scrapy-open-source/1-first_scrapy/bookscraper/bookscraper/spiders
-cd scrapy-open-source
-cd 1-first_scrapy
+activate venv in this path 
+cd scrapy-open-source/1-first_scrapy
 . venv/scripts/activate
+
+scrapy crawl in this path
+cd scrapy-open-source/1-first_scrapy/bookscraper/bookscraper
 
 pip freeze > requirements.txt
 -->
@@ -78,10 +78,22 @@ pip freeze > requirements.txt
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
+The amount of information online is staggering and overwhelming at times. Don't fret as there is a pattern disguised underneath each text/numerical data on screen. Behind the scenes, HTML/CSS are responsible for displaying content and information on a browser page online.
+
+You might be scratching your head thinking how you can somehow take initiative to collect data for your personal/professional purposes.
+
+With scraping, we are able to dive deep into the markup language/styling of a page and navigate through unnecessary noise to find the information you desire.
+
+Most information is safe to scrape online but it is important to refer to the "<u>Terms and Conditions</u>" of website/service before proceeding further. 
+
+<br>As always, <b>Happy Scraping!</b>
+
+<br>
+
 Purpose / Vision:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+* Home to inspiration and reference material for future projects
+* Utilizing robust open source scraping tool to extract information online and uncover new insights
+* Hosting scrape solution for accessibility and reliability
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -148,10 +160,10 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Generate csv file with more complex data from website
-- [ ] Creating pipeline with clean data
+- [x] Generate csv file with more complex data from website
+- [x] Creating pipeline with clean data
 - [ ] Saving data to files and database
-- [ ] Running Spiders in cloud
+- [ ] Running Spiders (creepy crawlies) in cloud
 - [x] :O
 - [x] :)
 - [ ] :(
@@ -196,6 +208,8 @@ List of wonderful resources:
 * [Img Shields](https://shields.io)
 * [GitHub Pages](https://pages.github.com)
 * [Font Awesome](https://fontawesome.com)
+<br><br>
+* [Scrapy](https://scrapy.org/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
