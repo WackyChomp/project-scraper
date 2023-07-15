@@ -7,6 +7,12 @@ class BookspiderSpider(scrapy.Spider):
     allowed_domains = ["books.toscrape.com"]    # specifically scrape domain and ignore links to other websites
     start_urls = ["https://books.toscrape.com"]
 
+    # Determine where data will be saved / this overides settings.py
+    custom_settings = {
+        'FEEDS':{
+            'spider_generated_bookdata.json': {'format': 'json' , 'overwrite': True},
+        }
+    }
 
     # Grab all the books from the main page
     def parse(self, response):
